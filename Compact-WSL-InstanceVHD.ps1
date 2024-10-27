@@ -49,6 +49,7 @@ function Select-WSLInstance {
 }
 
 # Function to find the VHDX file path using Windows Registry
+# Source: https://learn.microsoft.com/en-us/windows/wsl/disk-space#how-to-locate-the-vhdx-file-and-disk-path-for-your-linux-distribution
 function Get-VHDXPath {
     param (
         [string]$InstanceName,
